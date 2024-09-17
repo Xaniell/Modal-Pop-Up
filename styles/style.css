@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.modalContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: lightgrey;
+  position: relative;
+}
+
+.welcomeNote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+.welcomeNote .heading {
+  font-size: 32px;
+  font-weight: 700;
+}
+.welcomeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: white;
+  width: 50%;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+}
+
+.welcomeContent input {
+  width: 80%;
+  padding: 0.8rem 1rem;
+  font-size: 0.8rem;
+  outline: none;
+  border: 2px solid lightgray;
+  border-radius: 0.5rem;
+}
+.welcomeContent p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.welcomeContent input::placeholder {
+  font-size: 0.9rem;
+  color: lightgrey;
+}
+.welcomeContent button {
+  background-color: #add8e6;
+  width: 60%;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.welcomeContent button:hover {
+  background-color: #add8e6;
+  width: 60%;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
